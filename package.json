@@ -13,7 +13,7 @@
     "webpack": "^3.0.0"
   },
   "dependencies": {
-    "phaser": "^3.55.2"
+    "phaser": "^3.0.0"
   },
   "name": "phaser",
   "version": "1.0.0",
