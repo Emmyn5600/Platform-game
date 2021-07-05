@@ -11,5 +11,12 @@
   },
   "dependencies": {
     "phaser": "^3.55.2"
-  }
+  },
+  "name": "phaser",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
+  "repository": "https://github.com/Emmyn5600/Platform-game.git",
+  "author": "emmy",
+  "license": "MIT"
 }
