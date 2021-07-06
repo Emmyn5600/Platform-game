@@ -1,0 +1,1 @@
+export default 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Jy9uJGTk4AF4opgXRj8i /scores/';
