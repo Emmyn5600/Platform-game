@@ -71,7 +71,7 @@
 
 
 var messageEl = document.createElement('div');
-messageEl.textContent = 'I was put here by JavaScript!';
+messageEl.textContent = 'Hello Game created by Emmy!';
 document.body.appendChild(messageEl);
 
 /***/ })
