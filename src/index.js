@@ -7,7 +7,7 @@ import TitleScene from './Scenes/TitleScene';
 import OptionsScene from './Scenes/OptionsScene';
 import CreditsScene from './Scenes/CreditsScene';
 import Model from './Model';
-import game from '../cool/game'
+import game from '../jscool/game'
 
 
 class Game extends Phaser.Game {
