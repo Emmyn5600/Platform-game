@@ -1,6 +1,5 @@
 import { getCurrentUser, saveUser, loadLeaderboard } from './src/components/app.js';
 
-
 test('Save a user', () => {
   const e = { preventDefault: () => {} };
   const res = saveUser(e);
