@@ -8,7 +8,8 @@ import {
   menuBtn,
 } from '../helpers_api/data';
 import { saveUser } from './app';
-
+import { switchComponents, switchSections } from './control';
+import { play, pause, startGame } from './game';
 
 usernameForm.get().addEventListener('submit', saveUser);
 leaderboardBtn.get().addEventListener('click', () => {

@@ -1,5 +1,6 @@
+/* eslint-disable no-undef */
 import gameConfig from './config';
-import { saveScoreInfo } from './ui_control';
+import { saveScoreInfo } from './control';
 
 const game = new Phaser.Game(gameConfig);
 let score = 0;
@@ -17,8 +18,8 @@ const startScene = {
 
 const playingScene = {
   preload() {
-    game.load.image('plane', '../assets/images/player.png');
-    game.load.image('pipe', '../assets/images/toy.png');
+    game.load.image('plane', '../assets/images/toy.png');
+    game.load.image('pipe', '../assets/images/pipe.png');
     game.load.image('background', '../assets/images/background.png');
   },
   create() {
