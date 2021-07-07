@@ -5,16 +5,29 @@ This Game is built with HTML5, JAVASCRIPT and PHASER 3 and It is only compatible
 
 The goal is to try to go through the Objects without hitting any of them.
 
-Controls are simple, J Button to control an object and Button P to pause. 
+## ABOUT THE JUMPING GAME
+
+* The first page contain the start and leader-board buttons, the start button is to start the game after filling the username of a player. You can also use leader-board button to check for user's score.
+
+* The second page is has theree buttons, Play, Pause and Menu. Play button is to start the game, Pause is to stop or resume the game and menu is to check for game's menu.
+
+* The last page has game interface with the moving objects and a man where a man is supposed to escape the moving object.
+
+Use the below Keys to control the game
+
+`Controls are simple, J Button to control an object and Button P to pause.` 
 
 ## Getting Started
 
 - Clone this repo with.
   - Open your CMD and type `git clone https://github.com/Emmyn5600/Platform-game.git`
+
 - Navigate to the project directory and install all packages.
   - In your CMD type `cd Platform-game`
   - and the `npm install` 
+
 - Go to `dist/index.html` and run it with live-server.
+
 ![Image](assets/images/img1.png)
 - Now click on start button to start the game.
 ![Image](assets/images/img2.png)
