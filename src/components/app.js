@@ -1,8 +1,8 @@
 /* eslint-disable import/no-cycle */
 import axios from 'axios';
-import api from '../helpers_api/api';
-import { leaderboardData } from '../helpers_api/element';
-import { switchComponents } from './control';
+import api from '../helpers_api/api.js';
+import { leaderboardData } from '../helpers_api/element.js';
+import { switchComponents } from './control.js';
 
 export const saveUser = (e) => {
   e.preventDefault();

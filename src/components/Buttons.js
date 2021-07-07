@@ -6,10 +6,10 @@ import {
   playBtn,
   pauseBtn,
   menuBtn,
-} from '../helpers_api/element';
-import { saveUser } from './app';
-import { switchComponents, switchSections } from './control';
-import { play, pause, startGame } from './game';
+} from '../helpers_api/element.js';
+import { saveUser } from './app.js';
+import { switchComponents, switchSections } from './control.js';
+import { play, pause, startGame } from './game.js';
 
 usernameForm.get().addEventListener('submit', saveUser);
 leaderboardBtn.get().addEventListener('click', () => {

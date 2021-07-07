@@ -1,5 +1,5 @@
 /* eslint-disable import/no-cycle */
-import { getCurrentUser, loadLeaderboard, saveScore } from './app';
+import { getCurrentUser, loadLeaderboard, saveScore } from './app.js';
 import Element, {
   usernameDiv,
   optionBtns,
@@ -9,7 +9,7 @@ import Element, {
   leaderboardData,
   saveLoading,
   gameBtnsC,
-} from '../helpers_api/element';
+} from '../helpers_api/element.js';
 
 const lbItem = ({ user, score }) => {
   const tr = new Element().create('tr');
