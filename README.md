@@ -1,4 +1,4 @@
-# Platform-game# Platform Game (name: Jumping Game)
+# Platform Game (name: Jumping Game)
 ![Image](assets/images/toy.png)
 
 This Game is built with HTML5, JAVASCRIPT and PHASER 3 and It is only compatible with screen bigger than 1024W at the moment. 
@@ -50,7 +50,7 @@ Use `npm run test` to see the passing test.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://emmyn5600.github.io/Platform-game/dist/)
 
 ## Authors
 
