@@ -11,15 +11,15 @@ const startScene = {
   },
   create() {
     game.add.tileSprite(0, 0, 1000, 600, 'background');
-    const info = 'Control a plane with "SPACE", Pause with "P"';
-    game.add.text(game.world.centerX - 300, 450, info, { font: '30px Bauhaus', fontWeight: 800, fill: '#006633' });
+    const info = 'Use `J` to jump, Pause with `P`';
+    game.add.text(game.world.centerX - 300, 450, info, { font: '30px Bauhaus', fontWeight: 800, fill: '#fff' });
   },
 };
 
 const playingScene = {
   preload() {
     game.load.image('plane', '../assets/images/toy.png');
-    game.load.image('pipe', '../assets/images/pipe.png');
+    game.load.image('pipe', '../assets/images/jump.png');
     game.load.image('background', '../assets/images/background.png');
   },
   create() {
