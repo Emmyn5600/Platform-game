@@ -10,6 +10,7 @@ body {
   font-weight: 600;
   font-size: 2rem;
 }
+
 .welcome-content {
   display: block;
 }
@@ -74,7 +75,7 @@ button:hover {
   display: none;
 }
 
-.loading-score{
+.loading-score {
   display: none;
 }
 
