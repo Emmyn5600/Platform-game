@@ -7,7 +7,7 @@ let score = 0;
 
 const startScene = {
   preload() {
-    game.load.image('background', '../assets/images/player.png');
+    game.load.image('background', '../assets/images/toy.png');
   },
   create() {
     game.add.tileSprite(0, 0, 1000, 600, 'background');
@@ -30,7 +30,7 @@ const playingScene = {
     game.physics.arcade.enable(this.plane);
     this.plane.body.gravity.y = 1000;
 
-    const spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+    const spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.J);
     spaceKey.onDown.add(this.jump, this);
     const pKey = game.input.keyboard.addKey(Phaser.Keyboard.P);
     pKey.onDown.add(this.pause, this);

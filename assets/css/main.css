@@ -5,10 +5,15 @@ body {
   }
 
   .endless-head {
-      color: #136837;
+      color: #44524a;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-weight: 600;
       font-size: 2rem;
+  }
+
+  .form {
+    background-color: rgb(136, 111, 111);
+    width: 550px;
   }
   
   button {
@@ -22,7 +27,7 @@ body {
   }
   
   #game-content {
-    border: 20px solid #16834c;
+    border: 20px solid #44524a;
     border-radius: 30px;
     overflow: hidden;
   }
@@ -51,14 +56,14 @@ body {
   }
   
   .leaderboard {
-    border: 1px solid #59cb42;
-    background-color: #59cb42;
+    border: 1px solid #44524a;
+    background-color: #44524a;
     border-radius: 20px;
     height: 300px;
     width: 300px;
   }
   .leaderboard h6 {
-    color: #136837;
+    color: #fff;
     font-weight: 900;
     font-size: 20px;
   }
@@ -67,7 +72,7 @@ body {
   }
   .leaderboard table td,
   .leaderboard table th {
-    color: #136837;
+    color: #fff;
   }
   .leaderboard #l-back-btn img {
     height: 40px;
