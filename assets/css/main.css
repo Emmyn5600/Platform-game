@@ -10,6 +10,9 @@ body {
   font-weight: 600;
   font-size: 2rem;
 }
+.welcome-content {
+  display: block;
+}
 
 .form {
   background-color: rgb(136, 111, 111);
@@ -43,6 +46,7 @@ button:hover {
 
 .actions-div #username-div {
   position: absolute;
+  display: none;
 }
 
 .game-btns-c button img {
@@ -63,6 +67,15 @@ button:hover {
   border-radius: 20px;
   height: 300px;
   width: 300px;
+  display: none;
+}
+
+.game-container {
+  display: none;
+}
+
+.loading-score{
+  display: none;
 }
 
 .leaderboard h6 {

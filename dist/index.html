@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jumping game</title>
   <link rel="icon" href="../assets/images/toy.png" />
   <!-- CSS only -->
@@ -14,7 +16,7 @@
 </head>
 <!--  -->
 <body class="d-flex justify-content-center align-items-center">
-  <div id="welcome-content" class="welcome-content" style="display: block;">
+  <div id="welcome-content" class="welcome-content">
     <div class="title d-flex justify-content-center align-items-center">
      <h1 class="endless-head">Jumping game</h1>
     </div>
@@ -25,23 +27,23 @@
           <img src="../assets/images/toy.png" alt="">
         </div>
         <div class="actions-div col-lg-6 conte-div d-flex justify-content-center align-items-center">
-          <div id="username-div" style="display: none;">
-            <form id="username-form" class="d-flex flex-column" action="">
+          <div id="username-div">
+            <form id="username-form" class="d-flex flex-column">
               <input class="text-center input-text" required name="username" type="text" placeholder="YOUR USERNAME">
               <button id="next-btn" type="submit" class="my-2">
-                <img src="../assets/images/next.png" type="submit" alt="">
+                <img src="../assets/images/next.png" alt="">
               </button>
             </form>
           </div>
-          <div id="option-btns" class="flex-column" style="display: flex;">
+          <div id="option-btns" class="flex-column d-flex">
             <button id="start-btn" type="submit" class="my-2">
-              <img src="../assets/images/start.png" type="submit" alt="">
+              <img src="../assets/images/start.png" alt="">
             </button>
             <button id="leaderboard-btn" type="submit" class="my-2">
-              <img src="../assets/images/leaderboard.png" type="submit" alt="">
+              <img src="../assets/images/leaderboard.png" alt="">
             </button>
           </div>
-          <div id="leaderboard" class="leaderboard p-4" style="display: none;">
+          <div id="leaderboard" class="leaderboard p-4">
             <h6 class="text-center">Leaderboard</h6>
             <div class="data-content">
               <table>
@@ -56,7 +58,7 @@
             </div>
             <div class="d-flex justify-content-center align-items-center">
               <button id="l-back-btn" class="my-2">
-                <img src="../assets/images/back.png" type="submit" alt="">
+                <img src="../assets/images/back.png" alt="">
               </button>
             </div>
           </div>
@@ -65,22 +67,22 @@
     </div>
   </div>
 </div>
-  <div id="game-container" class="game-container" style="display: none;">
+  <div id="game-container" class="game-container">
     <div class="game-title d-flex justify-content-center align-items-center">
       <h1>Jumping game</h1>
     </div>
     <div id="game-content"></div>
     <div class="d-flex justify-content-center align-items-center">
-      <h6 id="save-loading" style="display: none;">Loading to your score .....</h6>
-      <div id="game-btns-c" class="game-btns-c" style="display: flex;">
+      <h6 id="save-loading" class="loading-score">Loading to your score .....</h6>
+      <div id="game-btns-c" class="game-btns-c d-flex">
           <button id="play-btn" type="submit" class="my-2">
-            <img src="../assets/images/playbutton.png" type="submit" alt="">
+            <img src="../assets/images/playbutton.png" alt="">
           </button>
           <button id="pause-btn" type="submit" class="my-2">
-            <img src="../assets/images/pausebtn.png" type="submit" alt="">
+            <img src="../assets/images/pausebtn.png" alt="">
           </button>
           <button id="menu-btn" type="submit" class="my-2">
-            <img src="../assets/images/menubtn.png" type="submit" alt="">
+            <img src="../assets/images/menubtn.png" alt="">
           </button>
       </div> 
     </div>
