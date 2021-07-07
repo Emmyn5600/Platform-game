@@ -30,6 +30,10 @@ Controls are simple, J Button to control an object and Button P to pause.
 - PHASER 3
 - BOOTSTRAP
 
+## Testing
+
+Use `npm run test` to see the passing test.
+
 
 ## Live Demo
 
