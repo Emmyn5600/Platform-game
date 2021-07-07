@@ -9,7 +9,7 @@ import Element, {
   leaderboardData,
   saveLoading,
   gameBtnsC,
-} from '../helpers_api/data';
+} from '../helpers_api/element';
 
 const lbItem = ({ user, score }) => {
   const tr = new Element().create('tr');

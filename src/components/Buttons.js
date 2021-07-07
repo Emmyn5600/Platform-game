@@ -6,7 +6,7 @@ import {
   playBtn,
   pauseBtn,
   menuBtn,
-} from '../helpers_api/data';
+} from '../helpers_api/element';
 import { saveUser } from './app';
 import { switchComponents, switchSections } from './control';
 import { play, pause, startGame } from './game';
