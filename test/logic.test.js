@@ -1,4 +1,6 @@
-import { getCurrentUser, saveUser, loadLeaderboard, saveScore } from '../src/components/app.js';
+import {
+  getCurrentUser, saveUser, loadLeaderboard, saveScore,
+} from '../src/components/app.js';
 
 
 test('Save a user', () => {
