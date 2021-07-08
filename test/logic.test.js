@@ -1,4 +1,5 @@
-import { getCurrentUser, saveUser, loadLeaderboard } from '../src/components/app.js';
+import { getCurrentUser, saveUser, loadLeaderboard, saveScore } from '../src/components/app.js';
+
 
 test('Save a user', () => {
   const e = { preventDefault: () => {} };
@@ -22,4 +23,11 @@ test('Load leaderboard', async () => {
   expect(res[0].score).toBeDefined();
   expect(typeof res[0].user).toBe('string');
   expect(typeof res[0].score).toBe('number');
+});
+
+test('Save a score', () => {
+  const e = { preventDefault: () => {} };
+  const res = saveScore(e);
+  expect(res).toBeDefined();
+  expect(typeof res).toBe('object');
 });
